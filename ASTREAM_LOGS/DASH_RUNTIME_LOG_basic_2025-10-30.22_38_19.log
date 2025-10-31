@@ -1,0 +1,329 @@
+2025-10-30 22:38:19,255 - dash_client.py:546 - INFO - Downloading MPD file http://juliet/media/BigBuckBunny/4sec/BigBuckBunny_4s.mpd
+2025-10-30 22:38:19,675 - dash_client.py:132 - INFO - Downloaded the MPD file BigBuckBunny_4s.mpd
+2025-10-30 22:38:19,676 - read_mpd.py:121 - INFO - Reading the MPD file
+2025-10-30 22:38:19,701 - read_mpd.py:157 - INFO - Found Video
+2025-10-30 22:38:19,702 - read_mpd.py:159 - INFO - Retrieving Media
+2025-10-30 22:38:19,707 - dash_client.py:555 - INFO - The DASH media has 20 video representations
+2025-10-30 22:38:19,707 - dash_client.py:565 - CRITICAL - Started Basic-DASH Playback
+2025-10-30 22:38:19,707 - dash_buffer.py:28 - INFO - Initializing the Buffer
+2025-10-30 22:38:19,707 - dash_buffer.py:59 - INFO - VideoLength=596.46,segmentDuration=4,MaxBufferSize=596.46,InitialBuffer(secs)=1,BufferAlph(secs)=5,BufferBeta(secs)=10
+2025-10-30 22:38:19,707 - dash_buffer.py:70 - INFO - Changing state from INITIALIZED to INITIAL_BUFFERING at 0 Playback time 
+2025-10-30 22:38:19,708 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=0,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=INITIAL_BUFFERING,Action=Starting,Bitrate=0
+2025-10-30 22:38:19,708 - dash_buffer.py:230 - INFO - Starting the Player
+2025-10-30 22:38:19,708 - dash_buffer.py:84 - INFO - Initialized player with video length 596.46
+2025-10-30 22:38:19,708 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=0,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=INITIAL_BUFFERING,Action=Starting,Bitrate=0
+2025-10-30 22:38:19,713 - dash_client.py:242 - INFO - The segments are stored in TEMP_a4mPO5
+2025-10-30 22:38:19,715 - dash_client.py:281 - INFO -  BASIC: Processing the segment 1
+2025-10-30 22:38:19,715 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s_init.mp4
+2025-10-30 22:38:19,727 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s_init.mp4
+2025-10-30 22:38:19,728 - dash_client.py:389 - INFO - BASIC : The total downloaded = 877, segment_size = 877, segment_number = 1
+2025-10-30 22:38:19,728 - dash_buffer.py:214 - INFO - Writing segment 1 at time 2.384185791015625e-06
+2025-10-30 22:38:19,728 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=0.00018596649169921875,CurrentPlaybackTime=0,CurrentBufferSize=1,CurrentPlaybackState=INITIAL_BUFFERING,Action=Writing,Bitrate=45226
+2025-10-30 22:38:19,728 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s_init.mp4. Size = 877 in 0.01236540799982322 seconds
+2025-10-30 22:38:19,728 - dash_client.py:281 - INFO -  BASIC: Processing the segment 2
+2025-10-30 22:38:19,729 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 567389.2846964939, next_bitrate = 88783.0
+2025-10-30 22:38:19,729 - dash_client.py:303 - INFO - Basic-DASH: Selected 88783.0 for the segment 3
+2025-10-30 22:38:19,729 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_88783bps/BigBuckBunny_4s1.m4s
+2025-10-30 22:38:19,729 - dash_buffer.py:147 - INFO - Initial Waiting Time = 0.019788742065429688
+2025-10-30 22:38:19,729 - dash_buffer.py:70 - INFO - Changing state from INITIAL_BUFFERING to PLAY at 0 Playback time 
+2025-10-30 22:38:19,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=0.0017609596252441406,CurrentPlaybackTime=0,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=InitialBuffering-Play,Bitrate=0
+2025-10-30 22:38:19,730 - dash_buffer.py:170 - INFO - Reading the segment number 1 from the buffer at playtime 0
+2025-10-30 22:38:19,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=0.0021927356719970703,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=45226
+2025-10-30 22:38:19,730 - dash_buffer.py:183 - INFO - Started playing with representation 45226 at 0
+2025-10-30 22:38:19,785 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_88783bps/BigBuckBunny_4s1.m4s
+2025-10-30 22:38:19,785 - dash_client.py:389 - INFO - BASIC : The total downloaded = 43939, segment_size = 43062, segment_number = 2
+2025-10-30 22:38:19,785 - dash_buffer.py:214 - INFO - Writing segment 2 at time 0.057436227798461914
+2025-10-30 22:38:19,785 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=0.057563066482543945,CurrentPlaybackTime=0,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=88783.0
+2025-10-30 22:38:19,785 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_88783bps/BigBuckBunny_4s1.m4s. Size = 43062 in 0.0559762109987787 seconds
+2025-10-30 22:38:19,786 - dash_client.py:281 - INFO -  BASIC: Processing the segment 3
+2025-10-30 22:38:19,786 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 5143454.386223876, next_bitrate = 128503.0
+2025-10-30 22:38:19,786 - dash_client.py:303 - INFO - Basic-DASH: Selected 128503.0 for the segment 4
+2025-10-30 22:38:19,786 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_128503bps/BigBuckBunny_4s2.m4s
+2025-10-30 22:38:19,941 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_128503bps/BigBuckBunny_4s2.m4s
+2025-10-30 22:38:19,941 - dash_client.py:389 - INFO - BASIC : The total downloaded = 113101, segment_size = 69162, segment_number = 3
+2025-10-30 22:38:19,941 - dash_buffer.py:214 - INFO - Writing segment 3 at time 0.21381163597106934
+2025-10-30 22:38:19,942 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=0.2139434814453125,CurrentPlaybackTime=0,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=128503.0
+2025-10-30 22:38:19,942 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_128503bps/BigBuckBunny_4s2.m4s. Size = 69162 in 0.15492033600094146 seconds
+2025-10-30 22:38:19,942 - dash_client.py:281 - INFO -  BASIC: Processing the segment 4
+2025-10-30 22:38:19,942 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4052674.3573568123, next_bitrate = 177437.0
+2025-10-30 22:38:19,942 - dash_client.py:303 - INFO - Basic-DASH: Selected 177437.0 for the segment 5
+2025-10-30 22:38:19,943 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_177437bps/BigBuckBunny_4s3.m4s
+2025-10-30 22:38:20,138 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_177437bps/BigBuckBunny_4s3.m4s
+2025-10-30 22:38:20,138 - dash_client.py:389 - INFO - BASIC : The total downloaded = 212355, segment_size = 99254, segment_number = 4
+2025-10-30 22:38:20,138 - dash_buffer.py:214 - INFO - Writing segment 4 at time 0.4106314182281494
+2025-10-30 22:38:20,138 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=0.4107630252838135,CurrentPlaybackTime=0,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=177437.0
+2025-10-30 22:38:20,139 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_177437bps/BigBuckBunny_4s3.m4s. Size = 99254 in 0.19533652599966445 seconds
+2025-10-30 22:38:20,139 - dash_client.py:281 - INFO -  BASIC: Processing the segment 5
+2025-10-30 22:38:20,139 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4058399.820144629, next_bitrate = 217761.0
+2025-10-30 22:38:20,139 - dash_client.py:303 - INFO - Basic-DASH: Selected 217761.0 for the segment 6
+2025-10-30 22:38:20,139 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_217761bps/BigBuckBunny_4s4.m4s
+2025-10-30 22:38:20,374 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_217761bps/BigBuckBunny_4s4.m4s
+2025-10-30 22:38:20,374 - dash_client.py:389 - INFO - BASIC : The total downloaded = 330993, segment_size = 118638, segment_number = 5
+2025-10-30 22:38:20,374 - dash_buffer.py:214 - INFO - Writing segment 5 at time 0.6465187072753906
+2025-10-30 22:38:20,374 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=0.6466596126556396,CurrentPlaybackTime=0,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=217761.0
+2025-10-30 22:38:20,375 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_217761bps/BigBuckBunny_4s4.m4s. Size = 118638 in 0.23444133600060013 seconds
+2025-10-30 22:38:20,375 - dash_client.py:281 - INFO -  BASIC: Processing the segment 6
+2025-10-30 22:38:20,375 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4054797.1671393183, next_bitrate = 255865.0
+2025-10-30 22:38:20,375 - dash_client.py:303 - INFO - Basic-DASH: Selected 255865.0 for the segment 7
+2025-10-30 22:38:20,375 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_255865bps/BigBuckBunny_4s5.m4s
+2025-10-30 22:38:20,593 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_255865bps/BigBuckBunny_4s5.m4s
+2025-10-30 22:38:20,593 - dash_client.py:389 - INFO - BASIC : The total downloaded = 441929, segment_size = 110936, segment_number = 6
+2025-10-30 22:38:20,593 - dash_buffer.py:214 - INFO - Writing segment 6 at time 0.8656091690063477
+2025-10-30 22:38:20,593 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=0.8657395839691162,CurrentPlaybackTime=0,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=255865.0
+2025-10-30 22:38:20,594 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_255865bps/BigBuckBunny_4s5.m4s. Size = 110936 in 0.21762711700102955 seconds
+2025-10-30 22:38:20,594 - dash_client.py:281 - INFO -  BASIC: Processing the segment 7
+2025-10-30 22:38:20,594 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4110928.2613530275, next_bitrate = 323047.0
+2025-10-30 22:38:20,594 - dash_client.py:303 - INFO - Basic-DASH: Selected 323047.0 for the segment 8
+2025-10-30 22:38:20,594 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_323047bps/BigBuckBunny_4s6.m4s
+2025-10-30 22:38:20,807 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_323047bps/BigBuckBunny_4s6.m4s
+2025-10-30 22:38:20,807 - dash_client.py:389 - INFO - BASIC : The total downloaded = 547417, segment_size = 105488, segment_number = 7
+2025-10-30 22:38:20,807 - dash_buffer.py:214 - INFO - Writing segment 7 at time 1.0793228149414062
+2025-10-30 22:38:20,807 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=1.0794720649719238,CurrentPlaybackTime=1,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=323047.0
+2025-10-30 22:38:20,807 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_323047bps/BigBuckBunny_4s6.m4s. Size = 105488 in 0.21225411300110864 seconds
+2025-10-30 22:38:20,807 - dash_client.py:281 - INFO -  BASIC: Processing the segment 8
+2025-10-30 22:38:20,808 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3969944.480272592, next_bitrate = 378355.0
+2025-10-30 22:38:20,808 - dash_client.py:303 - INFO - Basic-DASH: Selected 378355.0 for the segment 9
+2025-10-30 22:38:20,808 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_378355bps/BigBuckBunny_4s7.m4s
+2025-10-30 22:38:21,277 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_378355bps/BigBuckBunny_4s7.m4s
+2025-10-30 22:38:21,277 - dash_client.py:389 - INFO - BASIC : The total downloaded = 789353, segment_size = 241936, segment_number = 8
+2025-10-30 22:38:21,278 - dash_buffer.py:214 - INFO - Writing segment 8 at time 1.5499632358551025
+2025-10-30 22:38:21,278 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=1.5500943660736084,CurrentPlaybackTime=1,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=378355.0
+2025-10-30 22:38:21,278 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_378355bps/BigBuckBunny_4s7.m4s. Size = 241936 in 0.4691598230001546 seconds
+2025-10-30 22:38:21,278 - dash_client.py:281 - INFO -  BASIC: Processing the segment 9
+2025-10-30 22:38:21,279 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4071296.652177463, next_bitrate = 509091.0
+2025-10-30 22:38:21,279 - dash_client.py:303 - INFO - Basic-DASH: Selected 509091.0 for the segment 10
+2025-10-30 22:38:21,279 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_509091bps/BigBuckBunny_4s8.m4s
+2025-10-30 22:38:21,835 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_509091bps/BigBuckBunny_4s8.m4s
+2025-10-30 22:38:21,836 - dash_client.py:389 - INFO - BASIC : The total downloaded = 1078137, segment_size = 288784, segment_number = 9
+2025-10-30 22:38:21,836 - dash_buffer.py:214 - INFO - Writing segment 9 at time 2.108137369155884
+2025-10-30 22:38:21,836 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=2.1082704067230225,CurrentPlaybackTime=2,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=509091.0
+2025-10-30 22:38:21,836 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_509091bps/BigBuckBunny_4s8.m4s. Size = 288784 in 0.5566966039987165 seconds
+2025-10-30 22:38:21,836 - dash_client.py:281 - INFO -  BASIC: Processing the segment 10
+2025-10-30 22:38:21,837 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4097942.305920853, next_bitrate = 577751.0
+2025-10-30 22:38:21,837 - dash_client.py:303 - INFO - Basic-DASH: Selected 577751.0 for the segment 11
+2025-10-30 22:38:21,837 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_577751bps/BigBuckBunny_4s9.m4s
+2025-10-30 22:38:22,381 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_577751bps/BigBuckBunny_4s9.m4s
+2025-10-30 22:38:22,381 - dash_client.py:389 - INFO - BASIC : The total downloaded = 1389567, segment_size = 311430, segment_number = 10
+2025-10-30 22:38:22,381 - dash_buffer.py:214 - INFO - Writing segment 10 at time 2.6533021926879883
+2025-10-30 22:38:22,381 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=2.653442621231079,CurrentPlaybackTime=2,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=577751.0
+2025-10-30 22:38:22,381 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_577751bps/BigBuckBunny_4s9.m4s. Size = 311430 in 0.5436927209993883 seconds
+2025-10-30 22:38:22,381 - dash_client.py:281 - INFO -  BASIC: Processing the segment 11
+2025-10-30 22:38:22,382 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4235502.31764975, next_bitrate = 782553.0
+2025-10-30 22:38:22,382 - dash_client.py:303 - INFO - Basic-DASH: Selected 782553.0 for the segment 12
+2025-10-30 22:38:22,382 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_782553bps/BigBuckBunny_4s10.m4s
+2025-10-30 22:38:23,131 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_782553bps/BigBuckBunny_4s10.m4s
+2025-10-30 22:38:23,131 - dash_client.py:389 - INFO - BASIC : The total downloaded = 1814719, segment_size = 425152, segment_number = 11
+2025-10-30 22:38:23,131 - dash_buffer.py:214 - INFO - Writing segment 11 at time 3.403838872909546
+2025-10-30 22:38:23,132 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=3.4039804935455322,CurrentPlaybackTime=3,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=782553.0
+2025-10-30 22:38:23,132 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_782553bps/BigBuckBunny_4s10.m4s. Size = 425152 in 0.7490222439992067 seconds
+2025-10-30 22:38:23,132 - dash_client.py:281 - INFO -  BASIC: Processing the segment 12
+2025-10-30 22:38:23,132 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4339422.049568046, next_bitrate = 1008699.0
+2025-10-30 22:38:23,133 - dash_client.py:303 - INFO - Basic-DASH: Selected 1008699.0 for the segment 13
+2025-10-30 22:38:23,133 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_1008699bps/BigBuckBunny_4s11.m4s
+2025-10-30 22:38:23,730 - dash_buffer.py:170 - INFO - Reading the segment number 2 from the buffer at playtime 4
+2025-10-30 22:38:23,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=4.002629995346069,CurrentPlaybackTime=4,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=88783.0
+2025-10-30 22:38:24,279 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_1008699bps/BigBuckBunny_4s11.m4s
+2025-10-30 22:38:24,279 - dash_client.py:389 - INFO - BASIC : The total downloaded = 2395182, segment_size = 580463, segment_number = 12
+2025-10-30 22:38:24,279 - dash_buffer.py:214 - INFO - Writing segment 12 at time 4.551589488983154
+2025-10-30 22:38:24,279 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=4.551728963851929,CurrentPlaybackTime=4,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=1008699.0
+2025-10-30 22:38:24,280 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_1008699bps/BigBuckBunny_4s11.m4s. Size = 580463 in 1.1462601589992119 seconds
+2025-10-30 22:38:24,280 - dash_client.py:281 - INFO -  BASIC: Processing the segment 13
+2025-10-30 22:38:24,280 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4266331.503402479, next_bitrate = 1207152.0
+2025-10-30 22:38:24,280 - dash_client.py:303 - INFO - Basic-DASH: Selected 1207152.0 for the segment 14
+2025-10-30 22:38:24,280 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_1207152bps/BigBuckBunny_4s12.m4s
+2025-10-30 22:38:26,066 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_1207152bps/BigBuckBunny_4s12.m4s
+2025-10-30 22:38:26,066 - dash_client.py:389 - INFO - BASIC : The total downloaded = 3128484, segment_size = 733302, segment_number = 13
+2025-10-30 22:38:26,067 - dash_buffer.py:214 - INFO - Writing segment 13 at time 6.338844537734985
+2025-10-30 22:38:26,067 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=6.338986158370972,CurrentPlaybackTime=6,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=1207152.0
+2025-10-30 22:38:26,067 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_1207152bps/BigBuckBunny_4s12.m4s. Size = 733302 in 1.7857675690011092 seconds
+2025-10-30 22:38:26,067 - dash_client.py:281 - INFO -  BASIC: Processing the segment 14
+2025-10-30 22:38:26,067 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3913685.1557961474, next_bitrate = 1473801.0
+2025-10-30 22:38:26,068 - dash_client.py:303 - INFO - Basic-DASH: Selected 1473801.0 for the segment 15
+2025-10-30 22:38:26,068 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_1473801bps/BigBuckBunny_4s13.m4s
+2025-10-30 22:38:26,068 - dash_client.py:363 - INFO - SLEEPING for 4seconds 
+2025-10-30 22:38:27,730 - dash_buffer.py:170 - INFO - Reading the segment number 3 from the buffer at playtime 8
+2025-10-30 22:38:27,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=8.00256061553955,CurrentPlaybackTime=8,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=128503.0
+2025-10-30 22:38:31,730 - dash_buffer.py:170 - INFO - Reading the segment number 4 from the buffer at playtime 12
+2025-10-30 22:38:31,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=12.002650499343872,CurrentPlaybackTime=12,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=177437.0
+2025-10-30 22:38:31,883 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_1473801bps/BigBuckBunny_4s13.m4s
+2025-10-30 22:38:31,883 - dash_client.py:389 - INFO - BASIC : The total downloaded = 4093732, segment_size = 965248, segment_number = 14
+2025-10-30 22:38:31,883 - dash_buffer.py:214 - INFO - Writing segment 14 at time 12.155277967453003
+2025-10-30 22:38:31,883 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=12.15543818473816,CurrentPlaybackTime=12,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=1473801.0
+2025-10-30 22:38:31,883 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_1473801bps/BigBuckBunny_4s13.m4s. Size = 965248 in 1.791414983001232 seconds
+2025-10-30 22:38:31,883 - dash_client.py:281 - INFO -  BASIC: Processing the segment 15
+2025-10-30 22:38:31,884 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4009994.6343227136, next_bitrate = 2087347.0
+2025-10-30 22:38:31,884 - dash_client.py:303 - INFO - Basic-DASH: Selected 2087347.0 for the segment 16
+2025-10-30 22:38:31,884 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_2087347bps/BigBuckBunny_4s14.m4s
+2025-10-30 22:38:34,596 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_2087347bps/BigBuckBunny_4s14.m4s
+2025-10-30 22:38:34,596 - dash_client.py:389 - INFO - BASIC : The total downloaded = 5358879, segment_size = 1265147, segment_number = 15
+2025-10-30 22:38:34,596 - dash_buffer.py:214 - INFO - Writing segment 15 at time 14.868592739105225
+2025-10-30 22:38:34,596 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=14.868738651275635,CurrentPlaybackTime=14,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=2087347.0
+2025-10-30 22:38:34,597 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_2087347bps/BigBuckBunny_4s14.m4s. Size = 1265147 in 2.7117792349999945 seconds
+2025-10-30 22:38:34,597 - dash_client.py:281 - INFO -  BASIC: Processing the segment 16
+2025-10-30 22:38:34,597 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3879954.6131329536, next_bitrate = 2409742.0
+2025-10-30 22:38:34,597 - dash_client.py:303 - INFO - Basic-DASH: Selected 2409742.0 for the segment 17
+2025-10-30 22:38:34,597 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_2409742bps/BigBuckBunny_4s15.m4s
+2025-10-30 22:38:34,598 - dash_client.py:363 - INFO - SLEEPING for 4seconds 
+2025-10-30 22:38:35,730 - dash_buffer.py:170 - INFO - Reading the segment number 5 from the buffer at playtime 16
+2025-10-30 22:38:35,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=16.002567768096924,CurrentPlaybackTime=16,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=217761.0
+2025-10-30 22:38:39,730 - dash_buffer.py:170 - INFO - Reading the segment number 6 from the buffer at playtime 20
+2025-10-30 22:38:39,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=20.002652645111084,CurrentPlaybackTime=20,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=255865.0
+2025-10-30 22:38:39,816 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_2409742bps/BigBuckBunny_4s15.m4s
+2025-10-30 22:38:39,816 - dash_client.py:389 - INFO - BASIC : The total downloaded = 5994502, segment_size = 635623, segment_number = 16
+2025-10-30 22:38:39,816 - dash_buffer.py:214 - INFO - Writing segment 16 at time 20.088688135147095
+2025-10-30 22:38:39,817 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=20.0888192653656,CurrentPlaybackTime=20,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=2409742.0
+2025-10-30 22:38:39,817 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_2409742bps/BigBuckBunny_4s15.m4s. Size = 635623 in 1.194731072999275 seconds
+2025-10-30 22:38:39,817 - dash_client.py:281 - INFO -  BASIC: Processing the segment 17
+2025-10-30 22:38:39,817 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3874675.091090066, next_bitrate = 2944291.0
+2025-10-30 22:38:39,817 - dash_client.py:303 - INFO - Basic-DASH: Selected 2944291.0 for the segment 18
+2025-10-30 22:38:39,818 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s16.m4s
+2025-10-30 22:38:41,874 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s16.m4s
+2025-10-30 22:38:41,874 - dash_client.py:389 - INFO - BASIC : The total downloaded = 7111758, segment_size = 1117256, segment_number = 17
+2025-10-30 22:38:41,874 - dash_buffer.py:214 - INFO - Writing segment 17 at time 22.14636754989624
+2025-10-30 22:38:41,874 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=22.146512031555176,CurrentPlaybackTime=22,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=2944291.0
+2025-10-30 22:38:41,874 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s16.m4s. Size = 1117256 in 2.0561470720003854 seconds
+2025-10-30 22:38:41,875 - dash_client.py:281 - INFO -  BASIC: Processing the segment 18
+2025-10-30 22:38:41,875 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3955266.363896063, next_bitrate = 3340509.0
+2025-10-30 22:38:41,875 - dash_client.py:303 - INFO - Basic-DASH: Selected 3340509.0 for the segment 19
+2025-10-30 22:38:41,875 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_3340509bps/BigBuckBunny_4s17.m4s
+2025-10-30 22:38:41,875 - dash_client.py:363 - INFO - SLEEPING for 4seconds 
+2025-10-30 22:38:43,730 - dash_buffer.py:170 - INFO - Reading the segment number 7 from the buffer at playtime 24
+2025-10-30 22:38:43,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=24.002551317214966,CurrentPlaybackTime=24,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=323047.0
+2025-10-30 22:38:47,730 - dash_buffer.py:170 - INFO - Reading the segment number 8 from the buffer at playtime 28
+2025-10-30 22:38:47,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=28.002604246139526,CurrentPlaybackTime=28,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=378355.0
+2025-10-30 22:38:49,235 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_3340509bps/BigBuckBunny_4s17.m4s
+2025-10-30 22:38:49,235 - dash_client.py:389 - INFO - BASIC : The total downloaded = 8784915, segment_size = 1673157, segment_number = 18
+2025-10-30 22:38:49,235 - dash_buffer.py:214 - INFO - Writing segment 18 at time 29.507811546325684
+2025-10-30 22:38:49,236 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=29.507954120635986,CurrentPlaybackTime=29,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=3340509.0
+2025-10-30 22:38:49,236 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_3340509bps/BigBuckBunny_4s17.m4s. Size = 1673157 in 3.3359492380004667 seconds
+2025-10-30 22:38:49,236 - dash_client.py:281 - INFO -  BASIC: Processing the segment 19
+2025-10-30 22:38:49,236 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4080375.1000732137, next_bitrate = 3613836.0
+2025-10-30 22:38:49,237 - dash_client.py:303 - INFO - Basic-DASH: Selected 3613836.0 for the segment 20
+2025-10-30 22:38:49,237 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_3613836bps/BigBuckBunny_4s18.m4s
+2025-10-30 22:38:51,730 - dash_buffer.py:170 - INFO - Reading the segment number 9 from the buffer at playtime 32
+2025-10-30 22:38:51,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=32.00263977050781,CurrentPlaybackTime=32,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=509091.0
+2025-10-30 22:38:51,884 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_3613836bps/BigBuckBunny_4s18.m4s
+2025-10-30 22:38:51,884 - dash_client.py:389 - INFO - BASIC : The total downloaded = 10103578, segment_size = 1318663, segment_number = 19
+2025-10-30 22:38:51,884 - dash_buffer.py:214 - INFO - Writing segment 19 at time 32.15647888183594
+2025-10-30 22:38:51,884 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=32.156628370285034,CurrentPlaybackTime=32,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=3613836.0
+2025-10-30 22:38:51,884 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_3613836bps/BigBuckBunny_4s18.m4s. Size = 1318663 in 2.6471663810007158 seconds
+2025-10-30 22:38:51,885 - dash_client.py:281 - INFO -  BASIC: Processing the segment 20
+2025-10-30 22:38:51,885 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4024751.51704468, next_bitrate = 3340509.0
+2025-10-30 22:38:51,885 - dash_client.py:303 - INFO - Basic-DASH: Selected 3340509.0 for the segment 21
+2025-10-30 22:38:51,885 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_3340509bps/BigBuckBunny_4s19.m4s
+2025-10-30 22:38:55,259 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_3340509bps/BigBuckBunny_4s19.m4s
+2025-10-30 22:38:55,259 - dash_client.py:389 - INFO - BASIC : The total downloaded = 11771062, segment_size = 1667484, segment_number = 20
+2025-10-30 22:38:55,259 - dash_buffer.py:214 - INFO - Writing segment 20 at time 35.53135442733765
+2025-10-30 22:38:55,259 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=35.53149771690369,CurrentPlaybackTime=35,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=3340509.0
+2025-10-30 22:38:55,259 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_3340509bps/BigBuckBunny_4s19.m4s. Size = 1667484 in 3.3733381780002674 seconds
+2025-10-30 22:38:55,259 - dash_client.py:281 - INFO -  BASIC: Processing the segment 21
+2025-10-30 22:38:55,260 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4068859.63152151, next_bitrate = 3613836.0
+2025-10-30 22:38:55,260 - dash_client.py:303 - INFO - Basic-DASH: Selected 3613836.0 for the segment 22
+2025-10-30 22:38:55,260 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_3613836bps/BigBuckBunny_4s20.m4s
+2025-10-30 22:38:55,260 - dash_client.py:363 - INFO - SLEEPING for 4seconds 
+2025-10-30 22:38:55,730 - dash_buffer.py:170 - INFO - Reading the segment number 10 from the buffer at playtime 36
+2025-10-30 22:38:55,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=36.00253963470459,CurrentPlaybackTime=36,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=577751.0
+2025-10-30 22:38:59,730 - dash_buffer.py:170 - INFO - Reading the segment number 11 from the buffer at playtime 40
+2025-10-30 22:38:59,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=40.00264310836792,CurrentPlaybackTime=40,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=782553.0
+2025-10-30 22:39:03,730 - dash_buffer.py:170 - INFO - Reading the segment number 12 from the buffer at playtime 44
+2025-10-30 22:39:03,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=44.002644300460815,CurrentPlaybackTime=44,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=1008699.0
+2025-10-30 22:39:05,605 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_3613836bps/BigBuckBunny_4s20.m4s
+2025-10-30 22:39:05,606 - dash_client.py:389 - INFO - BASIC : The total downloaded = 14868281, segment_size = 3097219, segment_number = 21
+2025-10-30 22:39:05,606 - dash_buffer.py:214 - INFO - Writing segment 21 at time 45.87810492515564
+2025-10-30 22:39:05,606 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=45.87826371192932,CurrentPlaybackTime=45,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=3613836.0
+2025-10-30 22:39:05,606 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_3613836bps/BigBuckBunny_4s20.m4s. Size = 3097219 in 6.320737920999818 seconds
+2025-10-30 22:39:05,606 - dash_client.py:281 - INFO -  BASIC: Processing the segment 22
+2025-10-30 22:39:05,607 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 4003207.3396142107, next_bitrate = 2944291.0
+2025-10-30 22:39:05,607 - dash_client.py:303 - INFO - Basic-DASH: Selected 2944291.0 for the segment 23
+2025-10-30 22:39:05,607 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s21.m4s
+2025-10-30 22:39:07,730 - dash_buffer.py:170 - INFO - Reading the segment number 13 from the buffer at playtime 48
+2025-10-30 22:39:07,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=48.00265312194824,CurrentPlaybackTime=48,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=1207152.0
+2025-10-30 22:39:08,827 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s21.m4s
+2025-10-30 22:39:08,827 - dash_client.py:389 - INFO - BASIC : The total downloaded = 16384897, segment_size = 1516616, segment_number = 22
+2025-10-30 22:39:08,827 - dash_buffer.py:214 - INFO - Writing segment 22 at time 49.099820375442505
+2025-10-30 22:39:08,828 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=49.09998559951782,CurrentPlaybackTime=49,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=2944291.0
+2025-10-30 22:39:08,828 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s21.m4s. Size = 1516616 in 3.22014494799987 seconds
+2025-10-30 22:39:08,828 - dash_client.py:281 - INFO -  BASIC: Processing the segment 23
+2025-10-30 22:39:08,828 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3925691.398273548, next_bitrate = 3340509.0
+2025-10-30 22:39:08,829 - dash_client.py:303 - INFO - Basic-DASH: Selected 3340509.0 for the segment 24
+2025-10-30 22:39:08,829 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_3340509bps/BigBuckBunny_4s22.m4s
+2025-10-30 22:39:10,198 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_3340509bps/BigBuckBunny_4s22.m4s
+2025-10-30 22:39:10,198 - dash_client.py:389 - INFO - BASIC : The total downloaded = 17035471, segment_size = 650574, segment_number = 23
+2025-10-30 22:39:10,198 - dash_buffer.py:214 - INFO - Writing segment 23 at time 50.470773220062256
+2025-10-30 22:39:10,199 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=50.47091770172119,CurrentPlaybackTime=50,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=3340509.0
+2025-10-30 22:39:10,199 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_3340509bps/BigBuckBunny_4s22.m4s. Size = 650574 in 1.3693411349995586 seconds
+2025-10-30 22:39:10,199 - dash_client.py:281 - INFO -  BASIC: Processing the segment 24
+2025-10-30 22:39:10,199 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3898500.1593046393, next_bitrate = 2944291.0
+2025-10-30 22:39:10,199 - dash_client.py:303 - INFO - Basic-DASH: Selected 2944291.0 for the segment 25
+2025-10-30 22:39:10,200 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s23.m4s
+2025-10-30 22:39:11,730 - dash_buffer.py:170 - INFO - Reading the segment number 14 from the buffer at playtime 52
+2025-10-30 22:39:11,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=52.00260949134827,CurrentPlaybackTime=52,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=1473801.0
+2025-10-30 22:39:12,327 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s23.m4s
+2025-10-30 22:39:12,327 - dash_client.py:389 - INFO - BASIC : The total downloaded = 18016558, segment_size = 981087, segment_number = 24
+2025-10-30 22:39:12,327 - dash_buffer.py:214 - INFO - Writing segment 24 at time 52.599390268325806
+2025-10-30 22:39:12,327 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=52.5995454788208,CurrentPlaybackTime=52,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=2944291.0
+2025-10-30 22:39:12,327 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s23.m4s. Size = 981087 in 2.127129087999492 seconds
+2025-10-30 22:39:12,328 - dash_client.py:281 - INFO -  BASIC: Processing the segment 25
+2025-10-30 22:39:12,328 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3857475.5297315293, next_bitrate = 3340509.0
+2025-10-30 22:39:12,328 - dash_client.py:303 - INFO - Basic-DASH: Selected 3340509.0 for the segment 26
+2025-10-30 22:39:12,328 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_3340509bps/BigBuckBunny_4s24.m4s
+2025-10-30 22:39:13,861 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_3340509bps/BigBuckBunny_4s24.m4s
+2025-10-30 22:39:13,861 - dash_client.py:389 - INFO - BASIC : The total downloaded = 18580934, segment_size = 564376, segment_number = 25
+2025-10-30 22:39:13,861 - dash_buffer.py:214 - INFO - Writing segment 25 at time 54.13364505767822
+2025-10-30 22:39:13,862 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=54.13378024101257,CurrentPlaybackTime=54,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=3340509.0
+2025-10-30 22:39:13,862 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_3340509bps/BigBuckBunny_4s24.m4s. Size = 564376 in 1.5327418559991202 seconds
+2025-10-30 22:39:13,862 - dash_client.py:281 - INFO -  BASIC: Processing the segment 26
+2025-10-30 22:39:13,862 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3739095.4687969415, next_bitrate = 2944291.0
+2025-10-30 22:39:13,862 - dash_client.py:303 - INFO - Basic-DASH: Selected 2944291.0 for the segment 27
+2025-10-30 22:39:13,863 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s25.m4s
+2025-10-30 22:39:13,863 - dash_client.py:363 - INFO - SLEEPING for 4seconds 
+2025-10-30 22:39:15,730 - dash_buffer.py:170 - INFO - Reading the segment number 15 from the buffer at playtime 56
+2025-10-30 22:39:15,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=56.00260615348816,CurrentPlaybackTime=56,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=2087347.0
+2025-10-30 22:39:19,655 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s25.m4s
+2025-10-30 22:39:19,655 - dash_client.py:389 - INFO - BASIC : The total downloaded = 19280545, segment_size = 699611, segment_number = 26
+2025-10-30 22:39:19,655 - dash_buffer.py:214 - INFO - Writing segment 26 at time 59.927258014678955
+2025-10-30 22:39:19,655 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=59.927406549453735,CurrentPlaybackTime=59,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=2944291.0
+2025-10-30 22:39:19,655 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s25.m4s. Size = 699611 in 1.7675772719994711 seconds
+2025-10-30 22:39:19,655 - dash_client.py:281 - INFO -  BASIC: Processing the segment 27
+2025-10-30 22:39:19,656 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3523843.8175173625, next_bitrate = 2409742.0
+2025-10-30 22:39:19,656 - dash_client.py:303 - INFO - Basic-DASH: Selected 2409742.0 for the segment 28
+2025-10-30 22:39:19,656 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_2409742bps/BigBuckBunny_4s26.m4s
+2025-10-30 22:39:19,656 - dash_client.py:363 - INFO - SLEEPING for 4seconds 
+2025-10-30 22:39:19,730 - dash_buffer.py:170 - INFO - Reading the segment number 16 from the buffer at playtime 60
+2025-10-30 22:39:19,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=60.00250291824341,CurrentPlaybackTime=60,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=2409742.0
+2025-10-30 22:39:23,730 - dash_buffer.py:170 - INFO - Reading the segment number 17 from the buffer at playtime 64
+2025-10-30 22:39:23,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=64.00259828567505,CurrentPlaybackTime=64,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=2944291.0
+2025-10-30 22:39:26,660 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_2409742bps/BigBuckBunny_4s26.m4s
+2025-10-30 22:39:26,660 - dash_client.py:389 - INFO - BASIC : The total downloaded = 20334403, segment_size = 1053858, segment_number = 27
+2025-10-30 22:39:26,660 - dash_buffer.py:214 - INFO - Writing segment 27 at time 66.93234038352966
+2025-10-30 22:39:26,660 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=66.93248844146729,CurrentPlaybackTime=66,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=2409742.0
+2025-10-30 22:39:26,660 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_2409742bps/BigBuckBunny_4s26.m4s. Size = 1053858 in 2.9790466070007824 seconds
+2025-10-30 22:39:26,661 - dash_client.py:281 - INFO -  BASIC: Processing the segment 28
+2025-10-30 22:39:26,661 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3232055.870797284, next_bitrate = 2944291.0
+2025-10-30 22:39:26,661 - dash_client.py:303 - INFO - Basic-DASH: Selected 2944291.0 for the segment 29
+2025-10-30 22:39:26,661 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s27.m4s
+2025-10-30 22:39:27,730 - dash_buffer.py:170 - INFO - Reading the segment number 18 from the buffer at playtime 68
+2025-10-30 22:39:27,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=68.00264406204224,CurrentPlaybackTime=68,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=3340509.0
+2025-10-30 22:39:29,307 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s27.m4s
+2025-10-30 22:39:29,307 - dash_client.py:389 - INFO - BASIC : The total downloaded = 21287381, segment_size = 952978, segment_number = 28
+2025-10-30 22:39:29,307 - dash_buffer.py:214 - INFO - Writing segment 28 at time 69.57948398590088
+2025-10-30 22:39:29,307 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=69.5796046257019,CurrentPlaybackTime=69,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=2944291.0
+2025-10-30 22:39:29,307 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s27.m4s. Size = 952978 in 2.6456294619983964 seconds
+2025-10-30 22:39:29,308 - dash_client.py:281 - INFO -  BASIC: Processing the segment 29
+2025-10-30 22:39:29,308 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3077714.2133819596, next_bitrate = 2409742.0
+2025-10-30 22:39:29,308 - dash_client.py:303 - INFO - Basic-DASH: Selected 2409742.0 for the segment 30
+2025-10-30 22:39:29,308 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_2409742bps/BigBuckBunny_4s28.m4s
+2025-10-30 22:39:31,052 - dash_client.py:375 - INFO - BASIC: Downloaded segment http://juliet/media/BigBuckBunny/4sec/bunny_2409742bps/BigBuckBunny_4s28.m4s
+2025-10-30 22:39:31,052 - dash_client.py:389 - INFO - BASIC : The total downloaded = 22149955, segment_size = 862574, segment_number = 29
+2025-10-30 22:39:31,052 - dash_buffer.py:214 - INFO - Writing segment 29 at time 71.32425880432129
+2025-10-30 22:39:31,052 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=71.32440328598022,CurrentPlaybackTime=71,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=2409742.0
+2025-10-30 22:39:31,052 - dash_client.py:404 - INFO - Downloaded http://juliet/media/BigBuckBunny/4sec/bunny_2409742bps/BigBuckBunny_4s28.m4s. Size = 862574 in 1.743255933999535 seconds
+2025-10-30 22:39:31,052 - dash_client.py:281 - INFO -  BASIC: Processing the segment 30
+2025-10-30 22:39:31,053 - basic_dash2.py:59 - INFO - Basic Adaptation: Download Rate = 3099587.3263539085, next_bitrate = 2944291.0
+2025-10-30 22:39:31,053 - dash_client.py:303 - INFO - Basic-DASH: Selected 2944291.0 for the segment 31
+2025-10-30 22:39:31,053 - dash_client.py:360 - INFO - BASIC: Segment URL = http://juliet/media/BigBuckBunny/4sec/bunny_2944291bps/BigBuckBunny_4s29.m4s
+2025-10-30 22:39:31,053 - dash_client.py:363 - INFO - SLEEPING for 4seconds 
+2025-10-30 22:39:31,730 - dash_buffer.py:170 - INFO - Reading the segment number 19 from the buffer at playtime 72
+2025-10-30 22:39:31,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=72.00258708000183,CurrentPlaybackTime=72,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=3613836.0
+2025-10-30 22:39:35,730 - dash_buffer.py:170 - INFO - Reading the segment number 20 from the buffer at playtime 76
+2025-10-30 22:39:35,730 - dash_buffer.py:273 - INFO - BufferStats: EpochTime=76.00263953208923,CurrentPlaybackTime=76,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=3340509.0
